@@ -39,7 +39,7 @@ def bubble_sort(items):
     return out
 
 def merge_sort(items):
-  """
+    """
     the merge_sort algorithm takes in an unsorted list of numbers.
     returns a list in ascending order.
 
