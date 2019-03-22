@@ -40,13 +40,14 @@ def factorial(n):
         return n*factorial(n-1)
 
 def reverse(word):
-     """Return word in reverse
+    '''
+    Return word in reverse
     arg (int):
          word (str): word containg letters
 
     return:
         word (str) : word reversed
-    """
+    '''
     if word:
         return word[-1] + reverse(word[:-1])
     else:
