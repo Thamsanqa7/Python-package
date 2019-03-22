@@ -25,14 +25,15 @@ def fibonacci(n):
         return fibonacci( n - 1) + fibonacci( n -2)
 
 def factorial(n):
-     """function returns nth factorial
+    '''
+    function returns nth factorial
 
     arg (int):
          n(int) : nth factorial
 
     return:
          (int) :  return factorial of n
-    """
+    '''
     if n == 1:
         return n
     elif n > 1:
